@@ -1,0 +1,211 @@
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
+body {
+  font-family: 'Inria Serif', san-serif;
+  margin: 0;
+  width: 100%;
+  color: #000;
+}
+
+.cover-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-shadow: 0 4px 10px 2px rgba(0, 0, 0, 0.3);
+}
+
+#cover-img-div {
+  width: 100%;
+  height: 400px;
+  margin-bottom: -70px;
+}
+
+.prof-img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 2px;
+  border: 4px solid white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+#prof-img-div {
+  display: flex;
+  align-items: flex-end;
+  background-color: #ffffff;
+  justify-content: center;
+  gap: 80px;
+
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  gap: 20;
+  align-items: flex-start;
+
+}
+
+.intro h1 {
+  font-size: 46px;
+  margin: 0;
+  color: #000;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.intro p {
+  font-size: 20px;
+  margin: 10px 0 0;
+  color: #000;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+nav {
+  width: 60%;
+  height: 72;
+  border: 1px solid #d9d9d9;
+  margin: 80px auto;
+  background: white;
+  border-radius: 40px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.material-symbols-rounded {
+  color: #FB6F92;
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 300,
+    'GRAD' 0,
+    'opsz' 24
+}
+
+nav ul li a span {
+  vertical-align: middle;
+  margin-right: 6px;
+}
+
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 72px;
+  flex-wrap: wrap;
+
+}
+
+nav ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+  display: block;
+  font-size: 18px;
+}
+
+li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav ul li:hover {
+  cursor: pointer;
+  color: #FB6F92;
+}
+
+#tribute-info {
+  margin: 0px 120px;
+  padding-bottom: 20px;
+}
+
+#tribute-info section {
+  margin: 54px auto;
+}
+
+.square {
+  width: 76px;
+  height: 44px;
+  background-color: #FFE5EC;
+}
+
+.decor h2 {
+  color: #000;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-left: 20px;
+  margin-bottom: -46px;
+
+}
+
+p {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+}
+
+.decor {
+  margin-bottom: 24px;
+}
+
+.line {
+  border-top: 4px solid #FB6F92;
+  width: 85px;
+  border-radius: 2px;
+  box-sizing: border-box;
+  margin-bottom: 24px;
+}
+
+h3 {
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.p-bold {
+  font-weight: 400;
+}
+
+#img-div {
+  width: 100%;
+  height: 400px;
+  margin-left: 0;
+  padding: 0;
+  margin-bottom: 80px;
+}
+
+#image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+  margin-bottom: 12px;
+}
+
+#image-caption {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.read-more {
+  margin: 40 auto;
+  text-align: center;
+}
